@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PsCmdletTest": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "commandLineArgs": "-NoProfile -NoExit \"Import-Module .\\PsCmdletTest.dll\"",
+      "workingDirectory": "C:\\Code\\PsCmdletTest\\PsCmdletTest\\bin\\Debug\\netstandard2.0"
+    }
+  }
+}
