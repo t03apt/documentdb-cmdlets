@@ -10,4 +10,6 @@
     <PackageReference Include="PowerShellStandard.Library" Version="3.0.0-preview-01" />
   </ItemGroup>
 
+  <Import Project="..\SharedProject1\SharedProject1.projitems" Label="Shared" />
+
 </Project>

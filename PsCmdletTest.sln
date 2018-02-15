@@ -5,9 +5,22 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStandardCmdlets", "NetStandardCmdlets\NetStandardCmdlets.csproj", "{FF3C56E8-79DA-43C0-AEC5-7BD446C1238C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreCmdlets", "NetCoreCmdlets\NetCoreCmdlets.csproj", "{72B2FA0A-A465-499B-9968-A0498DD6A8D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreCmdlets", "NetCoreCmdlets\NetCoreCmdlets.csproj", "{72B2FA0A-A465-499B-9968-A0498DD6A8D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFrameworkCmdlets", "NetFrameworkCmdlets\NetFrameworkCmdlets.csproj", "{7D43726B-98E0-47C2-9416-2C1A467B0AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFrameworkCmdlets2", "NetFrameworkCmdlets2\NetFrameworkCmdlets2.csproj", "{9E21CD0A-818B-4889-AEA5-B18A825BDC3E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject1", "SharedProject1\SharedProject1.shproj", "{39173CB9-5EC5-4AC4-9FB6-8D0EA0375904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreConsoleApp", "NetCoreConsoleApp\NetCoreConsoleApp.csproj", "{4ED1F8CF-BD04-4D2D-B1DE-B515FA9EAD94}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedProject1\SharedProject1.projitems*{39173cb9-5ec5-4ac4-9fb6-8d0ea0375904}*SharedItemsImports = 13
+		SharedProject1\SharedProject1.projitems*{7d43726b-98e0-47c2-9416-2c1a467b0afa}*SharedItemsImports = 4
+		SharedProject1\SharedProject1.projitems*{9e21cd0a-818b-4889-aea5-b18a825bdc3e}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -21,6 +34,18 @@ Global
 		{72B2FA0A-A465-499B-9968-A0498DD6A8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72B2FA0A-A465-499B-9968-A0498DD6A8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72B2FA0A-A465-499B-9968-A0498DD6A8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D43726B-98E0-47C2-9416-2C1A467B0AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D43726B-98E0-47C2-9416-2C1A467B0AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D43726B-98E0-47C2-9416-2C1A467B0AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D43726B-98E0-47C2-9416-2C1A467B0AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E21CD0A-818B-4889-AEA5-B18A825BDC3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E21CD0A-818B-4889-AEA5-B18A825BDC3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E21CD0A-818B-4889-AEA5-B18A825BDC3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E21CD0A-818B-4889-AEA5-B18A825BDC3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED1F8CF-BD04-4D2D-B1DE-B515FA9EAD94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED1F8CF-BD04-4D2D-B1DE-B515FA9EAD94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED1F8CF-BD04-4D2D-B1DE-B515FA9EAD94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED1F8CF-BD04-4D2D-B1DE-B515FA9EAD94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
