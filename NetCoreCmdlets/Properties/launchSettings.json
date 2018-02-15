@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "NetCoreCmdlets": {
+      "commandName": "Executable",
+      "executablePath": "c:\\Program Files\\PowerShell\\6.0.1\\pwsh.exe",
+      "commandLineArgs": "-NoProfile -NoExit -c \"Import-Module C:\\Code\\PsCmdletTest\\NetCoreCmdlets\\bin\\Debug\\netcoreapp2.0\\NetCoreCmdlets.dll\""
+    }
+  }
+}

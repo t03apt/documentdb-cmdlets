@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "powershell": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "commandLineArgs": "-NoProfile -NoExit \"Import-Module .\\NetStandardCmdlets.dll\"",
+      "workingDirectory": ".\\bin\\Debug\\netstandard2.0"
+    },
+    "powershell core": {
+      "commandName": "Executable",
+      "executablePath": "c:\\Program Files\\PowerShell\\6.0.1\\pwsh.exe",
+      "commandLineArgs": "-NoProfile -NoExit -c \"Import-Module C:\\Code\\PsCmdletTest\\NetStandardCmdlets\\bin\\Debug\\netstandard2.0\\NetStandardCmdlets.dll\""
+    }
+  }
+}
