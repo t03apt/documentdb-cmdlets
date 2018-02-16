@@ -5,8 +5,9 @@ using Microsoft.Azure.Documents.Client;
 
 namespace SharedProject1
 {
-    class DocumentDatabasesStore
+    public class DocumentDatabasesStore
     {
+        public const string DefaultServiceUrl = "https://tpapp-cosmodb.documents.azure.com:443/";
         public static Task<FeedResponse<Database>> GetDatabases(string serviceUrl, string authKey)
         {
             DocumentClient client = new DocumentClient(new Uri(serviceUrl), authKey);

@@ -9,7 +9,7 @@
     "powershell core": {
       "commandName": "Executable",
       "executablePath": "c:\\Program Files\\PowerShell\\6.0.1\\pwsh.exe",
-      "commandLineArgs": "-NoProfile -NoExit -c \"Import-Module C:\\Code\\PsCmdletTest\\NetStandardCmdlets\\bin\\Debug\\netstandard2.0\\NetStandardCmdlets.dll\""
+      "commandLineArgs": "-NoProfile -NoExit -c \"Import-Module C:\\Code\\documentdb-cmdlets\\NetStandardCmdlets\\bin\\Debug\\netstandard2.0\\NetStandardCmdlets.dll\""
     }
   }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using Microsoft.Extensions.Configuration;
 using SharedProject1;
 
-namespace NetCoreConsoleApp
+namespace NeFrameworkConsoleApp
 {
     class Program
     {
